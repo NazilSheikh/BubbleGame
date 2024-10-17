@@ -1,0 +1,206 @@
+ā
+html body
+{
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box
+{
+    height: 100%;
+    width: 100%;
+}
+header
+{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+.container
+{
+    width: 1100px;
+    height: 600px;
+     background-color:white; 
+     margin:  0 auto;
+     border-radius: 5px;
+
+    
+}
+
+.dashboard
+{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+      gap: 3rem;
+    height: 100px;
+    background-color: rgb(67, 67, 220);
+}
+
+.hit
+{
+    display: flex;
+    font-size: 2rem;
+}
+.hitscorepara
+{
+    height: 3rem;
+    width: 3rem;
+    background-color: aliceblue;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+
+.timer
+{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.timer p
+{
+    font-size: 2rem;
+}
+.settimer
+{
+    height: 3rem;
+    width: 3rem;
+    background-color: aliceblue;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+
+
+.scoreboard
+{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.scoreboard p
+{
+    font-size: 2rem;
+}
+.score
+{
+    height: 3rem;
+    width: 3rem;
+    background-color: aliceblue;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+
+.target
+{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.target p
+{
+    font-size: 2rem;
+}
+.targetscore
+{
+    height: 3rem;
+    width: 3rem;
+    background-color: aliceblue;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+
+.pbottom
+{
+    /* background-color: aquamarine;
+    height: 500px;
+    width: 100%; */
+   /* calc function se % ko px se minus kr sakte hai  */
+   height: calc(100%-100px);
+   width: 100%;
+    /* padding se circle thoda necche ayaa */
+    padding: 20px;
+    /* row mai bubble with gap */
+    display: flex;
+    gap: 10px;
+
+    /* ISSE jaise hi row ki wdth khtm hogi bubbe next row mai bnnna chalo  */
+      flex-wrap: wrap;
+
+      /* jab  GAME OVER LIKHHAA AYEGAA VO CENTER MAI AYEGAA */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.bubble
+{
+    /* height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items:center ;
+    justify-content: center; */
+
+    background-color: rgb(67, 67, 220);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* jab bubble mai likhenge tho white color mai ayegaa */
+    
+    /* jo bhi text likhenge vo center mai aygea  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.bubble:hover
+{
+    background-color:  rgb(75, 75, 132);
+    cursor: pointer;
+}
+
+.newgame
+{
+    margin-left: 45%;
+}
+.newgamepara
+{
+    /* height: 40px;
+    font-size: 1.8rem;
+    border-radius: 5px; */
+    background-color: #1a406c;
+    color: #fff;
+    font-size: 1.5rem;
+    /* hmko ek lambhi si line nhi chahiye iske liye : content itni chahiye */
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
